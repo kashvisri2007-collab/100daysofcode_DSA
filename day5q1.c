@@ -28,4 +28,16 @@ int main() {
         }
     }
 
-    // Print remaining
+    // Print remaining elements
+    while(i < p) {
+        printf("%d ", arr1[i]);
+        i++;
+    }
+
+    while(j < q) {
+        printf("%d ", arr2[j]);
+        j++;
+    }
+
+    return 0;
+}
